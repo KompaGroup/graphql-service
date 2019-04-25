@@ -1,0 +1,14 @@
+{
+  "apps": [
+    {
+      "exec_mode": "fork_mode",
+      "name": "[Graphql] service",
+      "script": "npm",
+      "args": "run start",
+      "env": {},
+      "env_production": {
+        "NODE_ENV": "production"
+      }
+    }
+  ]
+}
